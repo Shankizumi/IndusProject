@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .container h1{
+    text-align: center;
+  }
+  
+  #userForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #userForm input{
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  #userForm button{
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  #userForm button:hover{
+    border: none;
+    padding: 6px;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+  }
+
+
+  input:focus {
+    outline: none;
+}
+
+  
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  
+  .modal-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+        padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .close {
+    float: right;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover, .close:focus {
+    color: red;
+  }
+  
